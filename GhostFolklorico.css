@@ -1,0 +1,151 @@
+body {
+    background-color: #DCCBFA;
+    font-family: Courier New, monospace;
+    font-size: 18px;
+}
+
+@media (min-width:1000px){
+    .wrapper{
+    width:100%;
+}
+}
+
+@media (orientation:landscape){
+     .wrapper{
+    width: 1400px;
+}
+}
+
+.example {
+    border-style: dotted;
+    background-image: url(artwork/swirls.jpeg);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-style: normal;
+    font-size: xxx-large;
+    padding-left: 550px;
+}
+.logo {
+    width: 95px;
+    height: 95px;
+padding-left: 500px;
+    padding-top: 10px;
+}
+
+
+header {
+    border-style: double;
+    display: grid;
+}
+
+
+
+nav {
+    background-color: #EDD4F6;
+}
+nav ul li { margin-right: 140px; 
+} 
+nav li {
+    display: inline;
+}
+
+section {
+    border-style: ridge;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    font-size: x-small;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 600px;
+}
+
+article {
+    grid-area: 1 1 2 1;
+    padding: 15px;
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+}
+
+section p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.folkinfo {
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.folkimg {
+    width: 300px;
+}
+
+.folk li {
+    font-size: small;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+aside {
+    border-style: dashed;
+    padding: 5px;
+    grid-area: 1 2 2 2;
+    width: 27%;
+    height: 400px;
+    margin-left: 400px;
+    background-image: url(artwork/swirls.jpeg);
+    background-position: center;
+    float: none;
+}
+
+.similar li {
+    font-size: x-small;
+    text-align: left;
+    list-style: none;
+}
+
+.dwight {
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+.michael {
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+.pam {
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+footer p {
+    font-weight: bold;
+    font-style: oblique;
+    border-style: groove;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: #F67EDE;
+}

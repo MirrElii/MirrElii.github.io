@@ -1,0 +1,91 @@
+body {
+    background-color: #DCCBFA;
+    font-family: Courier New, monospace;
+    font-size: 18px;
+}
+    
+.example {
+    border-style: dotted;
+    background-image: url(artwork/swirls.jpeg);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-style: normal;
+    font-size: xxx-large;
+    padding-left: 550px;
+}
+.logo {
+    width: 95px;
+    height: 95px;
+padding-left: 500px;
+    padding-top: 10px;
+}
+
+header {
+    border-style: double;
+    display: grid;
+}
+
+nav {
+    background-color: #EDD4F6;
+}
+nav ul li { margin-right: 140px; 
+} 
+nav li {
+    display: inline;
+}
+h2{
+    text-align: center;
+}
+form{
+    width: 600px;
+    margin: auto;
+    font-family: Courier New, monospace;
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+
+input [type="text"],
+input [type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+Input[type="submit"] {
+    width: 30px;
+    display: block;
+    margin: 10px auto;
+    padding 15px;
+    background-color: #EDD4F6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor:pointer; 
+}
+
+footer p {
+    font-weight: bold;
+    font-style: oblique;
+    border-style: groove;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: #F67EDE;
+}

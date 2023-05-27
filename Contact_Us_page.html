@@ -1,0 +1,53 @@
+<DOCTYPE html>
+
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ART BY M</title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="icon" type="image/x-icon" href="artwork/favicon.ico">
+    </head>
+
+    <body>
+        <div class=wrapper>
+
+
+            <header>
+
+                <div class="example">
+                    <h1>ART BY M</h1>
+                    <img class="logo" src="artwork/Logo.png" alt="Art by M logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="Product_page.html">Shop</a></li>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="New_Releases.html">New Releases</a></li>
+                        <li><a href="Sale.html">Sale</a></li>
+                        <li><a href="Contact_Us_page.html">Contact Us</a></li>
+                        <li><a href="Search.html">Search</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+
+            <form action="submit-form.php" method="post">
+                <h2>Send us a message:</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Full Name Here">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" value="example@example.com" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10" cols="50"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; ART BY M. All rights reserved.</p>
+        </footer>
+    </body>
+
+    </html>

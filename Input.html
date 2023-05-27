@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale = 1.0">
+        <link rel = "stylesheet" href="index.css">
+        <title> About Us </title>
+    
+</head>   
+
+<body>   
+    
+<form action="submit-form.php" method="post">
+  <!-- Text input -->
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br>
+
+  <!-- Email input -->
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <!-- Password input -->
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br>
+
+  <!-- Radio button input -->
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+
+  <!-- Checkbox input -->
+  <label for="newsletter">Subscribe to newsletter:</label>
+  <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br>
+
+  <!-- Select menu input -->
+  <label for="country">Country:</label>
+  <select id="country" name="country">
+    <option value="usa">USA</option>
+    <option value="canada">Canada</option>
+    <option value="mexico">Mexico</option>
+  </select><br>
+
+  <!-- Range input -->
+  <label for="volume">Volume:</label>
+  <input type="range" id="volume" name="volume" min="0" max="100"><br>
+
+  <!-- Submit and Reset buttons -->
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</form>
+
+
+</body>
+    
+</html>

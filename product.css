@@ -1,0 +1,137 @@
+body {
+    background-color: #DCCBFA;
+    font-family: Courier New, monospace;
+    font-size: 18px;
+}
+
+@media (min-width:1000px){
+    .wrapper{
+    width:100%;
+}
+}
+
+@media (orientation:landscape){
+     .wrapper{
+    width: 1400px;
+}
+}
+
+.example {
+    border-style: dotted;
+    background-image: url(artwork/swirls.jpeg);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-style: normal;
+    font-size: xxx-large;
+    padding-left: 550px;
+}
+.logo {
+    width: 95px;
+    height: 95px;
+padding-left: 500px;
+    padding-top: 10px;
+}
+
+header {
+    border-style: double;
+    display: grid;
+}
+
+nav {
+    background-color: #EDD4F6;
+}
+nav ul li { margin-right: 140px; 
+} 
+nav li {
+    display: inline;
+}
+h2{
+    font-family: brush script mt, cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+section {
+    border-style: dashed;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+article {
+    border-style: ridge;
+    margin: 25px;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    background-color: #EDD4F6;
+    width: 250px;
+    height: 275px;
+
+}
+p {
+    font-family: american typewriter, serif;
+    font-size:18px;
+}
+.folk {
+    width: 200px;
+    height: 200px;
+}
+
+.fruit {
+    width: 200px;
+    height: 200px;
+}
+
+.mariachi {
+    width: 200px;
+    height: 200px;
+}
+
+.dwight {
+    width: 200px;
+    height: 200px;
+}
+
+.michael {
+    width: 200px;
+    height: 200px;
+}
+
+.kevin {
+    width: 200px;
+    height: 200px;
+}
+
+.pam {
+    width: 200px;
+    height: 200px;
+}
+
+.taco {
+    width: 200px;
+    height: 200px;
+
+}
+
+footer p {
+    font-weight: bold;
+    font-style: oblique;
+    border-style: groove;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: #F67EDE;
+}

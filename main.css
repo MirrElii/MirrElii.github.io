@@ -1,0 +1,119 @@
+body {
+    background-color: #DCCBFA;
+    font-family: Courier New, monospace;
+    font-size: 18px;
+}
+@media (min-width:1000px){
+    .wrapper{
+    width:100%;
+}
+}
+
+@media (orientation:landscape){
+     .wrapper{
+    width: 1400px;
+}
+}
+    
+.example {
+    border-style: dotted;
+    background-image: url(artwork/swirls.jpeg);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-style: normal;
+    font-size: xxx-large;
+    padding-left: 550px;
+}
+.logo {
+    width: 95px;
+    height: 95px;
+padding-left: 500px;
+    padding-top: 10px;
+}
+
+header {
+    border-style: double;
+    display: grid;
+}
+
+nav {
+    background-color: #EDD4F6;
+}
+nav ul li { margin-right: 140px; 
+} 
+nav li {
+    display: inline;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.t {
+    border-style: solid;
+    height:50px;
+}
+.p{
+  font-size: xx-large;
+    padding-top: 50px;
+
+}
+.table {
+    padding-left: 125px;
+}
+
+.ab {
+    padding-top: 50px;
+    text-align: center;
+}
+.ta {
+    font-family: papyrus, fantasy;
+    padding: 10px;
+    text-indent: 20px;
+}
+.tab{
+    padding-top: 50px;
+    text-align: center; 
+}
+
+
+td {
+    width:40%;
+}
+.tabl{
+    padding-bottom: 60px;
+}
+.tabl p {
+    padding: 5px;
+    font-size: 15px;
+}
+.miriam {
+    width: 250px;
+    height: auto;
+}
+.watch{
+    font-weight: bold;
+    text-align: center;
+}
+.iframe{
+    
+}
+footer p {
+    font-weight: bold;
+    font-style: oblique;
+    border-style: groove;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: #F67EDE;
+}
