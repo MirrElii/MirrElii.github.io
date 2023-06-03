@@ -1,20 +1,18 @@
+@media (max-width: 991.98px) { 
+    .wrapper {
+        width: 100%;
+    }
+    }
+@media (min-width:orientation:landscape){
+     .wrapper{
+    width: 576px;
+    }
+}
+
 body {
     background-color: #DCCBFA;
     font-family: Courier New, monospace;
     font-size: 18px;
-}
-
-@media (min-width:1000px){
-    .wrapper{
-    width:100%;
-}
-}
-
-@media (orientation:landscape){
-     .wrapper{
-    width: 1400px;
-}
-}
 
 .example {
     border-style: dotted;
